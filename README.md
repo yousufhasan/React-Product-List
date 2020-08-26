@@ -6,6 +6,7 @@ This application is rendering a Product List from an API end point.  Following t
  - Redux for State Management.
  - Jest for Unit Tests.
  - All the code is written using TypeScript.
+ - SASS preprocessor for styling.
  - The Project is created using Create-React-App utility.
  
 ### Steps 
