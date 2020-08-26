@@ -1,0 +1,96 @@
+html {
+  font-size: 16px; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+header {
+  margin: 16px 0; }
+
+h2 {
+  font-size: 2rem;
+  font-weight: 300; }
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: 400; }
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 500; }
+
+h5 {
+  font-size: 1rem;
+  font-weight: 500; }
+
+section {
+  min-height: 100vh; }
+
+@media (max-width: 576px) {
+  .logo {
+    width: 6.25rem; } }
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .logo {
+    width: 9.25rem; } }
+
+@media (min-width: 768px) {
+  .logo {
+    width: 12.25rem; } }
+
+.product-header {
+  border-radius: 0.25rem;
+  margin-left: 0;
+  margin-right: 0; }
+  .product-header .heading {
+    color: #656464;
+    padding: 0.75rem 0; }
+  .product-header .product-sort {
+    margin: 0.5rem 0; }
+
+.card {
+  margin: 1rem 0; }
+  .card .card-body {
+    min-height: 12rem;
+    max-height: 12rem;
+    text-align: center; }
+    .card .card-body .card-title {
+      color: #333;
+      height: 5rem; }
+      @media (max-width: 768px) {
+        .card .card-body .card-title {
+          font-size: 1rem; } }
+      @media (min-width: 768px) and (max-width: 980px) {
+        .card .card-body .card-title {
+          font-size: 0.7rem; } }
+      @media (min-width: 980px) and (max-width: 1220px) {
+        .card .card-body .card-title {
+          font-size: 0.8rem; } }
+      @media (min-width: 1220px) {
+        .card .card-body .card-title {
+          font-size: 1rem; } }
+    .card .card-body .retail-price {
+      text-decoration: line-through;
+      color: #ccc;
+      min-height: 1.2rem; }
+    .card .card-body .sale-price {
+      color: #ADAAAA; }
+  .card .card-img {
+    min-height: 13rem;
+    position: relative; }
+    .card .card-img .img-center {
+      margin: 1.5rem auto;
+      display: block; }
+    .card .card-img .sold-out {
+      position: absolute;
+      bottom: 2rem;
+      right: 1rem;
+      width: 6rem;
+      background-color: #888686;
+      color: #fff;
+      text-align: center;
+      font-weight: 600;
+      padding: 0.25rem 0; }

@@ -1,0 +1,51 @@
+.card {
+    margin: 1rem 0;
+    .card-body{
+        min-height: $card-body-height;
+        max-height: $card-body-height;
+        text-align: center;
+        .card-title {
+            color: $color-dark-gray;
+            height: $card-title-height;
+            @media (max-width: 768px) {
+                font-size: $card-title-standard;
+            }
+            @media (min-width: 768px) and (max-width: 980px) {
+                font-size: $card-title-small;
+            }
+            @media (min-width: 980px) and (max-width: 1220px) {
+                font-size: $card-title-medium;
+            }
+            @media (min-width: 1220px) {
+                font-size: $card-title-standard;
+            }
+        }
+        .retail-price {
+            text-decoration: line-through;
+            color: $color-light-gray;
+            min-height: $card-retail-price-height;
+        }
+        .sale-price {
+            color: $color-mid-gray;
+        }
+    }
+    .card-img {
+        min-height: $card-image-min-height;
+        position: relative;
+        .img-center {
+            margin: 1.5rem auto;
+            display: block;
+        }
+        .sold-out {   
+            position: absolute;
+            bottom: 2rem;
+            right: 1rem;
+            width: 6rem;
+            background-color: $color-darker-gray;
+            color: $color-white;
+            text-align: center;
+            font-weight: 600;
+            padding: 0.25rem 0;
+        }
+    }
+}
