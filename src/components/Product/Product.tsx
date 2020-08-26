@@ -15,9 +15,9 @@ export const Product = () => {
  }
 
   return (
-    <>  
+    <section>  
        <ProductHeader title={title} />
         {renderProducts()}
-    </>
+    </section>
   );
 }

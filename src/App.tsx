@@ -8,9 +8,7 @@ function App() {
       <header>
         <Logo />
       </header>
-      <section> 
-         <Product />
-      </section>
+        <Product />
     </div>
   );
 }
